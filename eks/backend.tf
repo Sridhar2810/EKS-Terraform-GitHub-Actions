@@ -10,7 +10,7 @@ terraform {
     bucket         = "storagenew"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "newtable"
     encrypt        = true
   }
 }
